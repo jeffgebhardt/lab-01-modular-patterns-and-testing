@@ -1,5 +1,3 @@
-var exports = module.exports = {};
-
-exports.cowsay = function(cowsayString){
+module.exports = exports = function cowsay(cowsayString){
   return 'The cow says: ' + cowsayString;
 };
